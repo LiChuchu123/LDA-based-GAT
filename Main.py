@@ -153,7 +153,7 @@ if __name__ == '__main__':
 
             np.save('results/log_truth_gp.npy', np.array(truth))
             np.save('results/log_predict_gp.npy', np.array(predict))
-            torch.save(model, 'modelgc.pth')
+            torch.save(model, 'model.pth')
               
             
 
@@ -168,7 +168,7 @@ if __name__ == '__main__':
 
         all_graphs = extracting_subgraphs(net, all_indices, labels, hop, u_features, v_features, hop * 2 + 1)
         pred_loader = DataLoader(all_graphs, 1, shuffle=False, num_workers=0)
-        model = torch.load('modeltotal1.pth')
+        model = torch.load('model.pth')
 
 
         print(len(all_graphs), len(pred_loader), 'begin predicting 1')

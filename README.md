@@ -10,7 +10,7 @@ pip install pandas
 pip install numpy
 pip install scipy
 pip install torch_geometric
-pip isntall networkx
+pip install networkx
 pip install pickle
 pip install scikit-learn
 

@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
     # Arguments
     parser = argparse.ArgumentParser()
-    parser.add_argument('--no-train', action='store_true', default=True)
+    parser.add_argument('--train', action='store_true', default=True)
     parser.add_argument('--dataset', help='dataset name',default="total_dataset")
     
     parser.add_argument('--use-features', action='store_true', default=True)
@@ -56,7 +56,7 @@ if __name__ == '__main__':
     torch.backends.cudnn.deterministic=True
     hop = 1
   
-    if not args.no_train: 
+    if args.no_train: 
         #Construct model
         print('training.....')
         data_combo = (args.dataset, '', '')

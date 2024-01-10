@@ -16,4 +16,4 @@ pip install scikit-learn
 
 ## 3. Usage
 ### 3.1 Data
-The all datasets are freely downloaded from [https://pan.baidu.com/s/1YJ-sIaIN-rgHscY5DR8KjQ]  提取码：qz0r
+The all datasets are freely downloaded from <https://pan.baidu.com/s/1fF57IzpflJNxbJKLJLlCWg?pwd=l7xa>

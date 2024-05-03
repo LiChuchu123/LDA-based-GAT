@@ -16,7 +16,7 @@ pip install scikit-learn
 
 ## 3. Usage
 ### 3.1 Data
-The all datasets are freely downloaded from <https://pan.baidu.com/s/1fF57IzpflJNxbJKLJLlCWg?pwd=l7xa>
+The all datasets are freely downloaded from https://www.jianglab.cn/D-lnc/index.jsp
 ### 3.2 Training model
 Run Main.py, and set train parameter to TRUE and use-feature parameter to TRUE, specifying the dataset to train the model.
 ### 3.3 Predicting LDAs
